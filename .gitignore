@@ -1,0 +1,21 @@
+
+# Dependencies
+node_modules/
+
+# Test reports
+reports/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
