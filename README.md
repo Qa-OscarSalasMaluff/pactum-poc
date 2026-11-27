@@ -111,7 +111,7 @@ La suite contempla inicialmente pruebas sobre los siguientes métodos HTTP:
 - **GET:** consultas y validación de respuestas HTTP.
 - **POST:** envío de solicitudes con payload JSON.
 - **PUT:** envío de solicitudes de actualización con payload JSON.
-
+- **Pipeline:** se agrego un pequeño pipeline para ejecucion de los test.
 Se realizan verificaciones de códigos de estado HTTP y contenido de las respuestas.
 
 **Importante:** HTTPBin es un servicio de inspección y simulación de solicitudes HTTP. No implementa persistencia de datos ni lógica de negocio. Por lo tanto, estas pruebas validan el intercambio HTTP, pero no operaciones CRUD reales ni mecanismos de autenticación de una aplicación.
@@ -119,4 +119,4 @@ Se realizan verificaciones de códigos de estado HTTP y contenido de las respues
 ---
 
 **Proyecto:** PactumJS - API Testing POC  
-**Estado:** En desarrollo
+**Autor:**  Oscar Salas Maluff
